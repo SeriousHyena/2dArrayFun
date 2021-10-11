@@ -39,6 +39,17 @@ int main()
 		cout << endl;
 	}
 
+	cout << endl << endl;
+
+	//another way to do reverse order array printing
+	for (int row = 1; row >=0; row--)
+	{
+		for (int col = 2; col >=0; col--)
+		{
+			cout << myNums[row][col] << " ";
+		}
+	}
+
 	
 
 	return 0;
