@@ -48,6 +48,7 @@ int main()
 		{
 			cout << myNums[row][col] << " ";
 		}
+		cout << endl;
 	}
 
 	
